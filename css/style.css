@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+    position: relative;
+
+}
+
+.contenedor1 {
+    display: flex;
+    background-color: #222222;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px 20px;
+}
+
+.logopizza {
+    display: inline-block;
+    background-image: url('../img/logopizza.png');
+    height: 80px;
+    width: 92px;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.nombre {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: inline-block;
+}
+
+.rojo {
+    display: inline-block;
+    color: red;
+}
+
+.verde {
+    display: inline-block;
+    color: green;
+}
+
+.blanco {
+    display: inline-block;
+    color: white;
+}
+
+.espacio {
+    flex-grow: 1;
+}
+
+.navlist1 {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F3F3F3;
+    justify-self: flex-end;
+}
+
+.lista1 {
+    margin-left: 13px;
+
+}
+
+.contgral {
+    padding: 35px 19px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+}
+
+.box1 {
+    background-image: url('../img/delivery.jpg');
+    background-size: cover;
+    width: 490px;
+    height: 350px;
+    border-radius: 10px;
+
+}
+
+.box2 {
+    background-color: white;
+    background-size: cover;
+    width: 490px;
+    height: 350px;
+    margin-left: 5px;
+    border-radius: 10px;
+    position: relative;
+    border: darkred solid 2px ;
+}
+
+.envio {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: inline-block;
+    color: red;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.podio {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: inline-block;
+    color: red;
+    position: absolute;
+    left: 160px;
+    top: 26px;
+}
+
+.top5 {
+    font-size: 20px;
+    line-height: 23px;
+    color: #222222;
+    font-weight: 700;
+    position: absolute;
+    left: 69px;
+    top: 112px;
+}
+
+.listtop5 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #222222;
+    font-weight: 700;
+    position: absolute;
+    left: 61px;
+    top: 155px;
+}
+
+.pizzaimg{
+    height: 129px;
+    width: 92px;
+    background-image: url('../img/pizza2.jpg');
+    position: absolute;
+    left: 325px;
+    top: 132px;
+}
+
+.contenedor4 {
+    display: flex;
+    background-color: #222222;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0px;
+    height: 150px;
+}
+
+.logopizza2 {
+    display: inline-block;
+    background-image: url('../img/logopizza.png');
+    height: 80px;
+    width: 92px;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.navlist2 {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    line-height: 31px;
+    color: #F3F3F3;
+    justify-self: flex-end;
+    flex-direction: column;
+
+}
+
+.nombre2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: inline-block;
+    order: -1;
+}
